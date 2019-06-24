@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2A1496D4-3DF2-42F6-A346-75F1B85F60A6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.dynamic</string>
+			<key>fileName</key>
+			<string>2A1496D4-3DF2-42F6-A346-75F1B85F60A6.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>luna-ghtkdgfjbynkpzgwdtfuysuorczu</string>
+			<key>timeStartedRecording</key>
+			<real>583027957.19313502</real>
+			<key>timeStoppedRecording</key>
+			<real>583027957.358073</real>
+			<key>title</key>
+			<string>Build target luna</string>
+			<key>uniqueIdentifier</key>
+			<string>2A1496D4-3DF2-42F6-A346-75F1B85F60A6</string>
+		</dict>
+		<key>D447456A-8C71-4CFD-B082-2F50E0957EF9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
+			<key>fileName</key>
+			<string>D447456A-8C71-4CFD-B082-2F50E0957EF9.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>sandbox-fjxxklifjrklydfvfuxdjsisucil</string>
+			<key>timeStartedRecording</key>
+			<real>583027957.28755295</real>
+			<key>timeStoppedRecording</key>
+			<real>583027957.80004299</real>
+			<key>title</key>
+			<string>Build target sandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>D447456A-8C71-4CFD-B082-2F50E0957EF9</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

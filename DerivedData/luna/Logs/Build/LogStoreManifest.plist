@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1FBA5AC8-5E0E-45D9-8408-404107125201</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1FBA5AC8-5E0E-45D9-8408-404107125201.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sandbox project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sandbox</string>
+			<key>timeStartedRecording</key>
+			<real>583027957.16039395</real>
+			<key>timeStoppedRecording</key>
+			<real>583027957.86334503</real>
+			<key>title</key>
+			<string>Build sandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>1FBA5AC8-5E0E-45D9-8408-404107125201</string>
+		</dict>
+		<key>23043F2F-1945-450D-889E-7C5053EC371E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>23043F2F-1945-450D-889E-7C5053EC371E.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>luna project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>luna</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build luna</string>
+			<key>timeStartedRecording</key>
+			<real>583027200.81292295</real>
+			<key>timeStoppedRecording</key>
+			<real>583027201.50804603</real>
+			<key>title</key>
+			<string>Build luna</string>
+			<key>uniqueIdentifier</key>
+			<string>23043F2F-1945-450D-889E-7C5053EC371E</string>
+		</dict>
+		<key>81E4B071-1318-4155-B711-7BF56CCF9FC3</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>81E4B071-1318-4155-B711-7BF56CCF9FC3.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sandbox project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sandbox</string>
+			<key>timeStartedRecording</key>
+			<real>583027210.44211102</real>
+			<key>timeStoppedRecording</key>
+			<real>583027211.11910105</real>
+			<key>title</key>
+			<string>Build sandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>81E4B071-1318-4155-B711-7BF56CCF9FC3</string>
+		</dict>
+		<key>DD0A6592-F2A3-4837-9E4B-C58FBCF2F602</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DD0A6592-F2A3-4837-9E4B-C58FBCF2F602.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>sandbox project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>sandbox</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build sandbox</string>
+			<key>timeStartedRecording</key>
+			<real>583027913.76481295</real>
+			<key>timeStoppedRecording</key>
+			<real>583027914.491642</real>
+			<key>title</key>
+			<string>Build sandbox</string>
+			<key>uniqueIdentifier</key>
+			<string>DD0A6592-F2A3-4837-9E4B-C58FBCF2F602</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
