@@ -251,8 +251,10 @@
 		0B354E5A22C0487300DF0256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
+				HEADER_SEARCH_PATHS = /developer/luna/luna/src;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -260,8 +262,10 @@
 		0B354E5B22C0487300DF0256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
+				HEADER_SEARCH_PATHS = /developer/luna/luna/src;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

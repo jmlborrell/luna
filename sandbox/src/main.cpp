@@ -7,13 +7,21 @@
 //
 
 #include <iostream>
+#include <luna.h>
 
-namespace luna {
-    void print();
-}
+class Sandbox : public luna::Application {
+public:
+    Sandbox() {
+        
+    }
+    
+    ~Sandbox() {
+        
+    }
+    
+    
+};
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    luna::print();
-    return 0;
+luna::Application* luna::createApplication() {
+    return  new Sandbox();
 }
