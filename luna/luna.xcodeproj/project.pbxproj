@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B6EA2FB22C324B000250051 /* entry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2F922C324B000250051 /* entry.h */; };
+		0B6EA2FB22C324B000250051 /* entry.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2F922C324B000250051 /* entry.hpp */; };
 		0B6EA30022C3E7BE00250051 /* luna.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2FE22C3E7BE00250051 /* luna.h */; };
 		0B6EA30322C3E82700250051 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EA30122C3E82700250051 /* Application.cpp */; };
 		0B6EA30422C3E82700250051 /* Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA30222C3E82700250051 /* Application.h */; };
+		0B6EA30722C4001200250051 /* MemoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EA30522C4001200250051 /* MemoryManager.cpp */; };
+		0B6EA30822C4001200250051 /* MemoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA30622C4001200250051 /* MemoryManager.h */; };
+		0BA5DDBC22C55B4C00F748AF /* LoggerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */; };
+		0BA5DDBD22C55B4C00F748AF /* LoggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B354E3B22C0475D00DF0256 /* libluna.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libluna.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B6EA2F922C324B000250051 /* entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entry.h; sourceTree = "<group>"; };
+		0B6EA2F922C324B000250051 /* entry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entry.hpp; sourceTree = "<group>"; };
 		0B6EA2FE22C3E7BE00250051 /* luna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luna.h; sourceTree = "<group>"; };
 		0B6EA30122C3E82700250051 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
 		0B6EA30222C3E82700250051 /* Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		0B6EA30522C4001200250051 /* MemoryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryManager.cpp; sourceTree = "<group>"; };
+		0B6EA30622C4001200250051 /* MemoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryManager.h; sourceTree = "<group>"; };
+		0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoggerManager.cpp; sourceTree = "<group>"; };
+		0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +78,11 @@
 		0B6EA2F722C30A4400250051 /* support */ = {
 			isa = PBXGroup;
 			children = (
-				0B6EA2F922C324B000250051 /* entry.h */,
+				0B6EA2F922C324B000250051 /* entry.hpp */,
+				0B6EA30522C4001200250051 /* MemoryManager.cpp */,
+				0B6EA30622C4001200250051 /* MemoryManager.h */,
+				0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */,
+				0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */,
 			);
 			path = support;
 			sourceTree = "<group>";
@@ -83,8 +95,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6EA30022C3E7BE00250051 /* luna.h in Headers */,
-				0B6EA2FB22C324B000250051 /* entry.h in Headers */,
+				0B6EA2FB22C324B000250051 /* entry.hpp in Headers */,
 				0B6EA30422C3E82700250051 /* Application.h in Headers */,
+				0BA5DDBD22C55B4C00F748AF /* LoggerManager.h in Headers */,
+				0B6EA30822C4001200250051 /* MemoryManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B6EA30722C4001200250051 /* MemoryManager.cpp in Sources */,
+				0BA5DDBC22C55B4C00F748AF /* LoggerManager.cpp in Sources */,
 				0B6EA30322C3E82700250051 /* Application.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/spdlog/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -255,6 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/libs/spdlog/include";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -265,14 +283,18 @@
 		0B354E4722C0475D00DF0256 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -281,14 +303,18 @@
 		0B354E4822C0475D00DF0256 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = "";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
