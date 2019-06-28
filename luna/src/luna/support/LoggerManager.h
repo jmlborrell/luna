@@ -14,7 +14,6 @@
 #endif /* LoggerManager_hpp */
 
 namespace luna {
-    
     class LoggerManager {
         LoggerManager();
         ~LoggerManager();
