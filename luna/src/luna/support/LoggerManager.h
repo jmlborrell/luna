@@ -6,18 +6,18 @@
 //  Copyright © 2019 Jose Borrell. All rights reserved.
 //
 
-#ifndef LoggerManager_hpp
-#define LoggerManager_hpp
+#ifndef LoggerManager_h
+#define LoggerManager_h
 
 #include <stdio.h>
 
-#endif /* LoggerManager_hpp */
-
 namespace luna {
     class LoggerManager {
+    public:
         LoggerManager();
         ~LoggerManager();
         void startUp();
         void shutDown();
     };
 }
+#endif /* LoggerManager_hpp */

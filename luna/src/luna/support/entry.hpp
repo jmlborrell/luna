@@ -12,6 +12,7 @@
 #define entry_hpp
 
 #include <stdio.h>
+#include "LoggerManager.h"
 
 extern luna::Application* luna::createApplication();
 
@@ -20,6 +21,7 @@ int main(int argc, const char * argv[]) {
     
     printf("Luna Engine\n");
     auto application = luna::createApplication();
+    auto logger = luna::LoggerManager();
     application->startUp();
     delete application;
     
