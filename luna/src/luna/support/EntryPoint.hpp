@@ -1,5 +1,5 @@
 //
-//  entry.hpp
+//  EntryPoint.hpp
 //  luna
 //
 //  Created by Jose Borrell on 2019-06-25.
@@ -8,8 +8,8 @@
 
 #pragma once
 
-#ifndef entry_hpp
-#define entry_hpp
+#ifndef EntryPoint_hpp
+#define EntryPoint_hpp
 
 #include <stdio.h>
 #include "LoggerManager.h"
@@ -20,13 +20,15 @@ int main(int argc, const char * argv[]) {
     // insert code here..
     
     printf("Luna Engine\n");
+    
+    auto logger = new luna::LoggerManager();
+    
     auto application = luna::createApplication();
-    auto logger = luna::LoggerManager();
     application->startUp();
     delete application;
     
     return 0;
 }
 
-#endif /* entry_hpp */
+#endif /* EntryPoint_hpp */
 

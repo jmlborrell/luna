@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B6EA2FB22C324B000250051 /* entry.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2F922C324B000250051 /* entry.hpp */; };
+		0B6194C622C9386C00E081AD /* LoggerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6194C422C9386C00E081AD /* LoggerManager.cpp */; };
+		0B6194C722C9386C00E081AD /* LoggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6194C522C9386C00E081AD /* LoggerManager.h */; };
+		0B6EA2FB22C324B000250051 /* EntryPoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2F922C324B000250051 /* EntryPoint.hpp */; };
 		0B6EA30022C3E7BE00250051 /* luna.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2FE22C3E7BE00250051 /* luna.h */; };
 		0B6EA30322C3E82700250051 /* Application.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EA30122C3E82700250051 /* Application.cpp */; };
 		0B6EA30422C3E82700250051 /* Application.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA30222C3E82700250051 /* Application.h */; };
 		0B6EA30722C4001200250051 /* MemoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EA30522C4001200250051 /* MemoryManager.cpp */; };
 		0B6EA30822C4001200250051 /* MemoryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA30622C4001200250051 /* MemoryManager.h */; };
-		0BA5DDBC22C55B4C00F748AF /* LoggerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */; };
-		0BA5DDBD22C55B4C00F748AF /* LoggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0B354E3B22C0475D00DF0256 /* libluna.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libluna.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B6EA2F922C324B000250051 /* entry.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entry.hpp; sourceTree = "<group>"; };
+		0B6194C422C9386C00E081AD /* LoggerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoggerManager.cpp; sourceTree = "<group>"; };
+		0B6194C522C9386C00E081AD /* LoggerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerManager.h; sourceTree = "<group>"; };
+		0B6EA2F922C324B000250051 /* EntryPoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EntryPoint.hpp; sourceTree = "<group>"; };
 		0B6EA2FE22C3E7BE00250051 /* luna.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = luna.h; sourceTree = "<group>"; };
 		0B6EA30122C3E82700250051 /* Application.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Application.cpp; sourceTree = "<group>"; };
 		0B6EA30222C3E82700250051 /* Application.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		0B6EA30522C4001200250051 /* MemoryManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryManager.cpp; sourceTree = "<group>"; };
 		0B6EA30622C4001200250051 /* MemoryManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryManager.h; sourceTree = "<group>"; };
 		0B811E1422C714DE00B9F572 /* external */ = {isa = PBXFileReference; lastKnownFileType = folder; path = external; sourceTree = "<group>"; };
-		0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoggerManager.cpp; sourceTree = "<group>"; };
-		0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +80,11 @@
 		0B6EA2F722C30A4400250051 /* support */ = {
 			isa = PBXGroup;
 			children = (
-				0B6EA2F922C324B000250051 /* entry.hpp */,
+				0B6EA2F922C324B000250051 /* EntryPoint.hpp */,
 				0B6EA30522C4001200250051 /* MemoryManager.cpp */,
 				0B6EA30622C4001200250051 /* MemoryManager.h */,
-				0BA5DDBA22C55B4C00F748AF /* LoggerManager.cpp */,
-				0BA5DDBB22C55B4C00F748AF /* LoggerManager.h */,
+				0B6194C422C9386C00E081AD /* LoggerManager.cpp */,
+				0B6194C522C9386C00E081AD /* LoggerManager.h */,
 			);
 			path = support;
 			sourceTree = "<group>";
@@ -97,9 +97,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6EA30022C3E7BE00250051 /* luna.h in Headers */,
-				0B6EA2FB22C324B000250051 /* entry.hpp in Headers */,
+				0B6EA2FB22C324B000250051 /* EntryPoint.hpp in Headers */,
+				0B6194C722C9386C00E081AD /* LoggerManager.h in Headers */,
 				0B6EA30422C3E82700250051 /* Application.h in Headers */,
-				0BA5DDBD22C55B4C00F748AF /* LoggerManager.h in Headers */,
 				0B6EA30822C4001200250051 /* MemoryManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,8 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6EA30722C4001200250051 /* MemoryManager.cpp in Sources */,
-				0BA5DDBC22C55B4C00F748AF /* LoggerManager.cpp in Sources */,
 				0B6EA30322C3E82700250051 /* Application.cpp in Sources */,
+				0B6194C622C9386C00E081AD /* LoggerManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

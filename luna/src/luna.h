@@ -13,6 +13,6 @@
 
 #include <stdio.h>
 #include <luna/Application.h>
-#include <luna/support/entry.hpp>
+#include <luna/support/EntryPoint.hpp>
 
 #endif /* luna_h */

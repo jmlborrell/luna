@@ -254,7 +254,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
-				HEADER_SEARCH_PATHS = /developer/luna/luna/src;
+				HEADER_SEARCH_PATHS = (
+					/developer/luna/luna/src,
+					/developer/luna/luna/external/spdlog/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -265,7 +268,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
-				HEADER_SEARCH_PATHS = /developer/luna/luna/src;
+				HEADER_SEARCH_PATHS = (
+					/developer/luna/luna/src,
+					/developer/luna/luna/external/spdlog/include,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
