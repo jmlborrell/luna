@@ -20,18 +20,7 @@ namespace Luna {
         void shutDown();
         
     private:
-        class StackAllocator {
-        public:
-            typedef u_int32_t Marker;
-            
-            explicit StackAllocator(u_int32_t bytes);
-            
-            void* alloc(u_int32_t bytes);
-            Marker getMarker();
-            void freeToMarker(Marker marker);
-            
-            void clear();
-        };
+        
     };
 }
 
