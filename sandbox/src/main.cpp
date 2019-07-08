@@ -23,5 +23,5 @@ public:
 };
 
 luna::Application* luna::createApplication() {
-    return  new Sandbox();
+    return new Sandbox();
 }

@@ -15,8 +15,7 @@ namespace luna {
     std::shared_ptr<spdlog::logger> luna::LoggerManager::client;
     
     LoggerManager::LoggerManager() {
-        startUp();
-        LUNA_INFO("test");
+        
     }
     
     LoggerManager::~LoggerManager() {
@@ -29,6 +28,8 @@ namespace luna {
         
         client = spdlog::stdout_color_mt("CLIENT");
         client->set_level(spdlog::level::trace);
+        
+        LUNA_INFO("LOGGER BOOTED");
     }
     
     void LoggerManager::shutDown() {

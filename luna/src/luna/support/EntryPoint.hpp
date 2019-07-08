@@ -13,19 +13,35 @@
 
 #include <stdio.h>
 #include "LoggerManager.h"
+#include "MemoryManager.h"
 
 extern luna::Application* luna::createApplication();
 
+luna::LoggerManager* logger;
+luna::MemoryManager* memory;
+
+template<class target>
+inline void memory_init(target* ptr) {
+    ptr = (target*) memory -> set(sizeof(target));
+    *ptr = target();
+}
+
 int main(int argc, const char * argv[]) {
-    // insert code here..
     
     printf("Luna Engine\n");
     
-    auto logger = new luna::LoggerManager();
+    memory = new luna::MemoryManager();
+    memory->startUp();
+    
+    memory_init(logger);
+    logger->startUp();
     
     auto application = luna::createApplication();
     application->startUp();
     delete application;
+    
+    logger->shutDown();
+    memory->shutDown();
     
     return 0;
 }

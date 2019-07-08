@@ -11,13 +11,15 @@
 
 #include <stdio.h>
 
-namespace Luna {
+namespace luna {
     class MemoryManager {
     public:
         MemoryManager();
         ~MemoryManager();
         void startUp();
         void shutDown();
+        
+        void* set(size_t bytes);
         
     private:
         

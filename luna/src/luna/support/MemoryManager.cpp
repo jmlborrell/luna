@@ -7,8 +7,13 @@
 //
 
 #include "MemoryManager.h"
+#include "StackAllocator.h"
 
-namespace Luna {
+#define INIT_BYTES 5000
+
+namespace luna {
+    
+    luna::StackAllocator* stack;
     
     MemoryManager::MemoryManager() {
         
@@ -19,10 +24,15 @@ namespace Luna {
     }
 
     void MemoryManager::startUp() {
-        
+        stack = new luna::StackAllocator(INIT_BYTES);
     }
     
     void MemoryManager::shutDown() {
-        
+        stack->StackAllocator::clear();
+        stack = nullptr;
+    }
+    
+    void* MemoryManager::set(size_t bytes) {
+        return stack->StackAllocator::alloc(bytes);
     }
 }
