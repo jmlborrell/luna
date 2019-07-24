@@ -114,6 +114,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0B354E4922C0487300DF0256;
 			productRefGroup = 0B354E5322C0487300DF0256 /* Products */;
@@ -255,8 +256,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
 				HEADER_SEARCH_PATHS = (
-					/developer/luna/luna/src,
-					/developer/luna/luna/external/spdlog/include,
+					/Volumes/JBT5/developer/luna/luna/src,
+					/Volumes/JBT5/developer/luna/luna/external/spdlog/include,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -269,8 +270,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
 				HEADER_SEARCH_PATHS = (
-					/developer/luna/luna/src,
-					/developer/luna/luna/external/spdlog/include,
+					/Volumes/JBT5/developer/luna/luna/src,
+					/Volumes/JBT5/developer/luna/luna/external/spdlog/include,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

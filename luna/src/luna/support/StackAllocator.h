@@ -19,6 +19,7 @@ namespace luna {
         explicit StackAllocator(size_t bytes);
         
         void* alloc(size_t bytes);
+        void* allocAligned(size_t bytes, size_t alignment);
         Marker getMarker();
         void freeToMarker(Marker marker);
         

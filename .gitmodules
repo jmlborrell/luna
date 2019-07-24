@@ -1,3 +1,6 @@
 [submodule "luna/external/spdlog"]
 	path = luna/external/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "luna/external/external/catch2"]
+	path = luna/external/external/catch2
+	url = https://github.com/catchorg/Catch2.git
