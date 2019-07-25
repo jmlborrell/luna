@@ -7,22 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B354E5622C0487300DF0256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B354E5522C0487300DF0256 /* main.cpp */; };
-		0B354E5E22C048C400DF0256 /* libluna.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B354E5D22C048C400DF0256 /* libluna.dylib */; };
+		0BFAC4E222E958A90074D427 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BFAC4E122E958A90074D427 /* main.cpp */; };
+		0BFAC4EB22E95AA20074D427 /* StackAllocatorTests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0BFAC4E922E95AA20074D427 /* StackAllocatorTests.cpp */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		0B8EBCBD22E95B6F00E40BB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0BFAC4DE22E958A90074D427;
-			remoteInfo = LunaTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		0B354E5022C0487300DF0256 /* CopyFiles */ = {
+		0BFAC4DC22E958A90074D427 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,101 +24,92 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0B354E5222C0487300DF0256 /* sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sandbox; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B354E5522C0487300DF0256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0B354E5D22C048C400DF0256 /* libluna.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libluna.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LunaTests.xcodeproj; path = ../LunaTests/LunaTests.xcodeproj; sourceTree = "<group>"; };
+		0BFAC4DE22E958A90074D427 /* LunaTests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LunaTests; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFAC4E122E958A90074D427 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BFAC4E922E95AA20074D427 /* StackAllocatorTests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackAllocatorTests.cpp; sourceTree = "<group>"; };
+		0BFAC4EA22E95AA20074D427 /* StackAllocatorTests.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackAllocatorTests.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0B354E4F22C0487300DF0256 /* Frameworks */ = {
+		0BFAC4DB22E958A90074D427 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B354E5E22C048C400DF0256 /* libluna.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B354E4922C0487300DF0256 = {
+		0BFAC4D522E958A90074D427 = {
 			isa = PBXGroup;
 			children = (
-				0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */,
-				0B354E5422C0487300DF0256 /* src */,
-				0B354E5322C0487300DF0256 /* Products */,
-				0B354E5C22C048C400DF0256 /* Frameworks */,
+				0BFAC4E022E958A90074D427 /* LunaTests */,
+				0BFAC4DF22E958A90074D427 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0B354E5322C0487300DF0256 /* Products */ = {
+		0BFAC4DF22E958A90074D427 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B354E5222C0487300DF0256 /* sandbox */,
+				0BFAC4DE22E958A90074D427 /* LunaTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B354E5422C0487300DF0256 /* src */ = {
+		0BFAC4E022E958A90074D427 /* LunaTests */ = {
 			isa = PBXGroup;
 			children = (
-				0B354E5522C0487300DF0256 /* main.cpp */,
+				0BFAC4E822E95A790074D427 /* support */,
+				0BFAC4E122E958A90074D427 /* main.cpp */,
 			);
-			path = src;
+			path = LunaTests;
 			sourceTree = "<group>";
 		};
-		0B354E5C22C048C400DF0256 /* Frameworks */ = {
+		0BFAC4E822E95A790074D427 /* support */ = {
 			isa = PBXGroup;
 			children = (
-				0B354E5D22C048C400DF0256 /* libluna.dylib */,
+				0BFAC4E922E95AA20074D427 /* StackAllocatorTests.cpp */,
+				0BFAC4EA22E95AA20074D427 /* StackAllocatorTests.hpp */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0B8EBCBA22E95B6F00E40BB0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B8EBCBE22E95B6F00E40BB0 /* LunaTests */,
-			);
-			name = Products;
+			path = support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0B354E5122C0487300DF0256 /* sandbox */ = {
+		0BFAC4DD22E958A90074D427 /* LunaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B354E5922C0487300DF0256 /* Build configuration list for PBXNativeTarget "sandbox" */;
+			buildConfigurationList = 0BFAC4E522E958A90074D427 /* Build configuration list for PBXNativeTarget "LunaTests" */;
 			buildPhases = (
-				0B354E4E22C0487300DF0256 /* Sources */,
-				0B354E4F22C0487300DF0256 /* Frameworks */,
-				0B354E5022C0487300DF0256 /* CopyFiles */,
+				0BFAC4DA22E958A90074D427 /* Sources */,
+				0BFAC4DB22E958A90074D427 /* Frameworks */,
+				0BFAC4DC22E958A90074D427 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = sandbox;
-			productName = sandbox;
-			productReference = 0B354E5222C0487300DF0256 /* sandbox */;
+			name = LunaTests;
+			productName = LunaTests;
+			productReference = 0BFAC4DE22E958A90074D427 /* LunaTests */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0B354E4A22C0487300DF0256 /* Project object */ = {
+		0BFAC4D622E958A90074D427 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Jose Borrell";
 				TargetAttributes = {
-					0B354E5122C0487300DF0256 = {
-						CreatedOnToolsVersion = 10.2.1;
+					0BFAC4DD22E958A90074D427 = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
-			buildConfigurationList = 0B354E4D22C0487300DF0256 /* Build configuration list for PBXProject "sandbox" */;
+			buildConfigurationList = 0BFAC4D922E958A90074D427 /* Build configuration list for PBXProject "LunaTests" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,45 +117,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 0B354E4922C0487300DF0256;
-			productRefGroup = 0B354E5322C0487300DF0256 /* Products */;
+			mainGroup = 0BFAC4D522E958A90074D427;
+			productRefGroup = 0BFAC4DF22E958A90074D427 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0B8EBCBA22E95B6F00E40BB0 /* Products */;
-					ProjectRef = 0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				0B354E5122C0487300DF0256 /* sandbox */,
+				0BFAC4DD22E958A90074D427 /* LunaTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		0B8EBCBE22E95B6F00E40BB0 /* LunaTests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LunaTests;
-			remoteRef = 0B8EBCBD22E95B6F00E40BB0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0B354E4E22C0487300DF0256 /* Sources */ = {
+		0BFAC4DA22E958A90074D427 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B354E5622C0487300DF0256 /* main.cpp in Sources */,
+				0BFAC4EB22E95AA20074D427 /* StackAllocatorTests.cpp in Sources */,
+				0BFAC4E222E958A90074D427 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		0B354E5722C0487300DF0256 /* Debug */ = {
+		0BFAC4E322E958A90074D427 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +172,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -225,7 +190,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -233,7 +198,7 @@
 			};
 			name = Debug;
 		};
-		0B354E5822C0487300DF0256 /* Release */ = {
+		0BFAC4E422E958A90074D427 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -265,7 +230,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -278,36 +242,36 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		0B354E5A22C0487300DF0256 /* Debug */ = {
+		0BFAC4E622E958A90074D427 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
 					/Volumes/JBT5/developer/luna/luna/src,
-					/Volumes/JBT5/developer/luna/luna/external/spdlog/include,
+					/Volumes/JBT5/developer/luna/luna/external/catch2/single_include,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		0B354E5B22C0487300DF0256 /* Release */ = {
+		0BFAC4E722E958A90074D427 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N55SC7X3S5;
+				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = (
 					/Volumes/JBT5/developer/luna/luna/src,
-					/Volumes/JBT5/developer/luna/luna/external/spdlog/include,
+					/Volumes/JBT5/developer/luna/luna/external/catch2/single_include,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -316,25 +280,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0B354E4D22C0487300DF0256 /* Build configuration list for PBXProject "sandbox" */ = {
+		0BFAC4D922E958A90074D427 /* Build configuration list for PBXProject "LunaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B354E5722C0487300DF0256 /* Debug */,
-				0B354E5822C0487300DF0256 /* Release */,
+				0BFAC4E322E958A90074D427 /* Debug */,
+				0BFAC4E422E958A90074D427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B354E5922C0487300DF0256 /* Build configuration list for PBXNativeTarget "sandbox" */ = {
+		0BFAC4E522E958A90074D427 /* Build configuration list for PBXNativeTarget "LunaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B354E5A22C0487300DF0256 /* Debug */,
-				0B354E5B22C0487300DF0256 /* Release */,
+				0BFAC4E622E958A90074D427 /* Debug */,
+				0BFAC4E722E958A90074D427 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0B354E4A22C0487300DF0256 /* Project object */;
+	rootObject = 0BFAC4D622E958A90074D427 /* Project object */;
 }

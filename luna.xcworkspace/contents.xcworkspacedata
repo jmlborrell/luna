@@ -2,9 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:sandbox/sandbox.xcodeproj">
+      location = "group:luna/luna.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:luna/luna.xcodeproj">
+      location = "group:LunaTests/LunaTests.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:sandbox/sandbox.xcodeproj">
    </FileRef>
 </Workspace>
