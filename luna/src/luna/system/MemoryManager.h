@@ -19,7 +19,7 @@ namespace luna {
         void startUp();
         void shutDown();
         
-        void* set(size_t bytes);
+        void* set(size_t bytes, size_t alignment);
         
     private:
         

@@ -22,6 +22,7 @@ namespace luna {
         void* allocAligned(size_t bytes, size_t alignment);
         Marker getMarker();
         void freeToMarker(Marker marker);
+        void freeAligned(Marker mem);
         
         void clear();
     private:

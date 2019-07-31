@@ -32,7 +32,7 @@ namespace luna {
         stack = nullptr;
     }
     
-    void* MemoryManager::set(size_t bytes) {
-        return stack->StackAllocator::alloc(bytes);
+    void* MemoryManager::set(size_t bytes, size_t alignment) {
+        return stack->StackAllocator::allocAligned(bytes, alignment);
     }
 }

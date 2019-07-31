@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0B419B0622CD7B4D00B406B0 /* StackAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B419B0422CD7B4D00B406B0 /* StackAllocator.cpp */; };
 		0B419B0722CD7B4D00B406B0 /* StackAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B419B0522CD7B4D00B406B0 /* StackAllocator.h */; };
+		0B49609F22ECC30200B78FC5 /* assert.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B49609D22ECC30200B78FC5 /* assert.hpp */; };
 		0B6194C622C9386C00E081AD /* LoggerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B6194C422C9386C00E081AD /* LoggerManager.cpp */; };
 		0B6194C722C9386C00E081AD /* LoggerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B6194C522C9386C00E081AD /* LoggerManager.h */; };
 		0B6EA2FB22C324B000250051 /* EntryPoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0B6EA2F922C324B000250051 /* EntryPoint.hpp */; };
@@ -23,6 +24,7 @@
 		0B354E3B22C0475D00DF0256 /* libluna.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libluna.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B419B0422CD7B4D00B406B0 /* StackAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackAllocator.cpp; sourceTree = "<group>"; };
 		0B419B0522CD7B4D00B406B0 /* StackAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackAllocator.h; sourceTree = "<group>"; };
+		0B49609D22ECC30200B78FC5 /* assert.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = assert.hpp; sourceTree = "<group>"; };
 		0B6194C422C9386C00E081AD /* LoggerManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LoggerManager.cpp; sourceTree = "<group>"; };
 		0B6194C522C9386C00E081AD /* LoggerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoggerManager.h; sourceTree = "<group>"; };
 		0B6EA2F922C324B000250051 /* EntryPoint.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EntryPoint.hpp; sourceTree = "<group>"; };
@@ -74,14 +76,14 @@
 		0B6EA2F222C3099700250051 /* luna */ = {
 			isa = PBXGroup;
 			children = (
-				0B6EA2F722C30A4400250051 /* support */,
+				0B6EA2F722C30A4400250051 /* system */,
 				0B6EA30122C3E82700250051 /* Application.cpp */,
 				0B6EA30222C3E82700250051 /* Application.h */,
 			);
 			path = luna;
 			sourceTree = "<group>";
 		};
-		0B6EA2F722C30A4400250051 /* support */ = {
+		0B6EA2F722C30A4400250051 /* system */ = {
 			isa = PBXGroup;
 			children = (
 				0B6EA2F922C324B000250051 /* EntryPoint.hpp */,
@@ -91,8 +93,9 @@
 				0B6194C522C9386C00E081AD /* LoggerManager.h */,
 				0B419B0422CD7B4D00B406B0 /* StackAllocator.cpp */,
 				0B419B0522CD7B4D00B406B0 /* StackAllocator.h */,
+				0B49609D22ECC30200B78FC5 /* assert.hpp */,
 			);
-			path = support;
+			path = system;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +111,7 @@
 				0B6EA30422C3E82700250051 /* Application.h in Headers */,
 				0B6EA30822C4001200250051 /* MemoryManager.h in Headers */,
 				0B419B0722CD7B4D00B406B0 /* StackAllocator.h in Headers */,
+				0B49609F22ECC30200B78FC5 /* assert.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

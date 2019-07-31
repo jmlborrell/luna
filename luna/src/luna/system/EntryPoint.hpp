@@ -14,6 +14,8 @@
 #include <stdio.h>
 #include "LoggerManager.h"
 #include "MemoryManager.h"
+#include <stddef.h>
+#include <stdalign.h>
 
 extern luna::Application* luna::createApplication();
 
@@ -22,7 +24,7 @@ luna::MemoryManager* memory;
 
 template<class target>
 inline void memory_init(target* ptr) {
-    ptr = (target*) memory -> set(sizeof(target));
+    ptr = (target*) memory -> set(sizeof(target), alignof(target));
     *ptr = target();
 }
 

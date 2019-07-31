@@ -8,18 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0B354E5622C0487300DF0256 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B354E5522C0487300DF0256 /* main.cpp */; };
-		0B354E5E22C048C400DF0256 /* libluna.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B354E5D22C048C400DF0256 /* libluna.dylib */; };
+		0B354E5E22C048C400DF0256 /* libluna.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B354E5D22C048C400DF0256 /* libluna.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		0B71B1EB22F1453C00CC878A /* libluna.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 0B354E5D22C048C400DF0256 /* libluna.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0B8EBCBD22E95B6F00E40BB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0BFAC4DE22E958A90074D427;
-			remoteInfo = LunaTests;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		0B354E5022C0487300DF0256 /* CopyFiles */ = {
@@ -31,13 +22,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0B71B1EC22F1453C00CC878A /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0B71B1EB22F1453C00CC878A /* libluna.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B354E5222C0487300DF0256 /* sandbox */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sandbox; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B354E5522C0487300DF0256 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0B354E5D22C048C400DF0256 /* libluna.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libluna.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LunaTests.xcodeproj; path = ../LunaTests/LunaTests.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +56,6 @@
 		0B354E4922C0487300DF0256 = {
 			isa = PBXGroup;
 			children = (
-				0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */,
 				0B354E5422C0487300DF0256 /* src */,
 				0B354E5322C0487300DF0256 /* Products */,
 				0B354E5C22C048C400DF0256 /* Frameworks */,
@@ -86,14 +86,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0B8EBCBA22E95B6F00E40BB0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0B8EBCBE22E95B6F00E40BB0 /* LunaTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -104,6 +96,7 @@
 				0B354E4E22C0487300DF0256 /* Sources */,
 				0B354E4F22C0487300DF0256 /* Frameworks */,
 				0B354E5022C0487300DF0256 /* CopyFiles */,
+				0B71B1EC22F1453C00CC878A /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -139,28 +132,12 @@
 			mainGroup = 0B354E4922C0487300DF0256;
 			productRefGroup = 0B354E5322C0487300DF0256 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 0B8EBCBA22E95B6F00E40BB0 /* Products */;
-					ProjectRef = 0B8EBCB922E95B6F00E40BB0 /* LunaTests.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				0B354E5122C0487300DF0256 /* sandbox */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		0B8EBCBE22E95B6F00E40BB0 /* LunaTests */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LunaTests;
-			remoteRef = 0B8EBCBD22E95B6F00E40BB0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B354E4E22C0487300DF0256 /* Sources */ = {
